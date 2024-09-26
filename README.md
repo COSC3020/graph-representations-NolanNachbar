@@ -59,4 +59,6 @@ function convertToAdjMatrix(adjList) {
 
 The outer For-loop and While-loop will populate the array with $nxn$ $0$'s and then the inner for-loop will run $e$ times where $e$ is the number of edges. So my implementation has a runtime is $n^2 + e \in O(n^2)$. This means that it depends on both the number of vertices and the number of edges.
 
+I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.
+
 I coded this completely independently. I looked at this website to help me understand the adjacency list vs matrix. https://www.geeksforgeeks.org/comparison-between-adjacency-list-and-adjacency-matrix-representation-of-graph/#
